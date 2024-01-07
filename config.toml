@@ -10,9 +10,6 @@ title = "Ari Lerner"
 # Theme used
 theme = "hugo-astatine-theme"
 
-publishDir = 'docs' 
-
-
 preserveTaxonomyNames = true
 rssLimit = 10
 paginate = 10
