@@ -1,2 +1,0 @@
-# Ari Lerner
-Test
