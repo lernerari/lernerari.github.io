@@ -2015,23 +2015,19 @@ blockquote p {
   margin-bottom: 2.5rem;
 }
 
-.profile-card {
-  text-align: left;
-}
-
 .main-image {
   width: 100%;
   max-width: 16rem;
   height: auto;
 }
 
-.profile-details h1 {
-  margin-top: 1rem;
+.profile-copy h1 {
+  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
 .profile-address {
-  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile-address a {
@@ -2049,10 +2045,6 @@ blockquote p {
     margin-top: 2rem;
   }
 
-  .profile-card {
-    text-align: center;
-  }
-
   .main-image {
     max-width: 14rem;
   }
@@ -2060,5 +2052,10 @@ blockquote p {
   .picture {
     display: flex;
     justify-content: center;
+  }
+
+  .profile-copy h1,
+  .profile-address {
+    text-align: center;
   }
 }

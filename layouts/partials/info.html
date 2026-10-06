@@ -1,7 +1,5 @@
-<div class="profile-card"
-     itemscope itemtype="http://schema.org/Person">
-    <div class="picture"
-         itemscope itemtype="http://schema.org/ImageObject">
+<div class="profile-photo picture"
+     itemscope itemtype="http://schema.org/ImageObject">
         <picture>
             {{ if .Params.ImgOther }}
             {{ range .Params.ImgOther }}
@@ -14,41 +12,4 @@
             itemprop="contentUrl" alt="{{ .Params.Imgname.Alt }}"
             src="{{ .Params.Imgname.Name }}">
         </picture>
-    </div>
-    <div class="profile-details leading-snug text-base">
-        <a  class="u-url font-bold" rel="me" itemprop="url" href="{{ .Permalink }}">
-            <h1 class="text-black dark:text-zinc-300 p-name border-0"
-                itemprop="name">{{ .Params.Name }}
-            </h1>
-        </a>
-        {{ if .Params.sameas }}
-        {{ range .Params.sameas }}
-        <link href="{{ . }}" rel="me" itemprop="sameAs">
-        {{ end }}
-        {{ end }}
-        <h2 itemprop="jobTitle" class="text-xl my-0 border-none">{{ .Params.Personal_title }}</h2>
-            {{range .Params.Address }}
-            <div class="profile-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            {{ with .name }}<span>{{ . }}</span>{{ end }}
-            {{ with .street }}<span itemprop="streetAddress">{{ . }}</span>{{ end }}
-            {{ with .postal_code }}<span itemprop="postalCode">{{ . }}</span>{{ end }}
-            {{ with .locality }}<span itemprop="addressLocality">{{ . }}</span>{{ end }}
-            {{ with .email }}
-            <a href="mailto:{{ . }}">{{ . }}</a>
-            {{ end }}
-            {{ with .emailimg }}
-            <picture>
-                {{ if .dark }}
-                <source srcset="{{ .dark }}" class="email"
-                        alt="Email screenshot"
-                        media="(prefers-color-scheme: dark)">
-                {{ end }}
-                {{ if .light }}
-                <img class="email h-5 inline" src="{{ .light }}" alt="Email screenshot">
-                {{ end }}
-            </picture>
-            {{ end }}
-            </div>
-            {{ end }}
-    </div>
 </div>

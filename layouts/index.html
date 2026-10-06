@@ -1,8 +1,21 @@
 {{ define "main" }}
-    <section class="homepage-intro" aria-label="About Ari Lerner">
+    <section class="homepage-intro" aria-label="About Ari Lerner"
+             itemscope itemtype="http://schema.org/Person">
         {{ partial "info.html" . }}
-        <div class="profile-bio">
-            {{ .Params.Bio | markdownify }}
+        <div class="profile-copy">
+            <a class="u-url font-bold" rel="me" itemprop="url" href="{{ .Permalink }}">
+                <h1 class="text-black p-name border-0" itemprop="name">{{ .Params.Name }}</h1>
+            </a>
+            {{ range .Params.Address }}
+                {{ with .email }}
+                <div class="profile-address">
+                    <a href="mailto:{{ . }}">{{ . }}</a>
+                </div>
+                {{ end }}
+            {{ end }}
+            <div class="profile-bio">
+                {{ .Params.Bio | markdownify }}
+            </div>
         </div>
     </section>
     {{ .Content }}

@@ -14,8 +14,6 @@ Imgname:
 #   - name: $IMAGE_PATH
 #     type: $IMAGE_TYPE
 # ...
-# A title (job title or "Researcher", "PhD student", etc.)
-personal_title: "He/Him/His"
 # An address (you can list multiple)
 address: 
   - 
