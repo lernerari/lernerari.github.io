@@ -2005,37 +2005,60 @@ blockquote p {
   }
 }
 
-/* Keep the homepage portrait compact while preserving its aspect ratio. */
+/* Homepage profile: portrait on the left, biography on the right. */
+.homepage-intro {
+  display: grid;
+  grid-template-columns: 16rem minmax(0, 1fr);
+  align-items: start;
+  column-gap: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.profile-card {
+  text-align: left;
+}
+
 .main-image {
   width: 100%;
-  max-width: 14rem;
+  max-width: 16rem;
   height: auto;
 }
 
-.head {
-  row-gap: 1.5rem;
-  justify-content: center;
+.profile-details h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.profile-details {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.profile-address {
+  margin-top: 0.75rem;
 }
 
 .profile-address a {
   color: inherit;
 }
 
-@media (min-width: 640px) {
-  .head {
-    grid-template-columns: 14rem max-content;
-    column-gap: 3rem;
+.profile-bio p:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 639px) {
+  .homepage-intro {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1.5rem;
+    margin-top: 2rem;
   }
 
-  .profile-details {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: left;
+  .profile-card {
+    text-align: center;
+  }
+
+  .main-image {
+    max-width: 14rem;
+  }
+
+  .picture {
+    display: flex;
+    justify-content: center;
   }
 }

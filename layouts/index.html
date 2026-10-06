@@ -1,5 +1,10 @@
 {{ define "main" }}
-    {{ partial "info.html" . }}
+    <section class="homepage-intro" aria-label="About Ari Lerner">
+        {{ partial "info.html" . }}
+        <div class="profile-bio">
+            {{ .Params.Bio | markdownify }}
+        </div>
+    </section>
     {{ .Content }}
     {{ with .Params.Publications }}
         <h2 id="publications">Publications</h2>

@@ -1,6 +1,6 @@
-<div class="head container grid grid-cols-1 items-center"
+<div class="profile-card"
      itemscope itemtype="http://schema.org/Person">
-    <div class="picture mx-auto"
+    <div class="picture"
          itemscope itemtype="http://schema.org/ImageObject">
         <picture>
             {{ if .Params.ImgOther }}
@@ -10,7 +10,7 @@
             {{ end }}
             <source srcset="{{ .Params.Imgname.Name }}"
                     {{ if .Params.Imgname.Type }} type="{{ .Params.Imgname.Type }}"{{ end }}>
-            <img class="main-image u-photo mx-auto"
+            <img class="main-image u-photo"
             itemprop="contentUrl" alt="{{ .Params.Imgname.Alt }}"
             src="{{ .Params.Imgname.Name }}">
         </picture>
