@@ -19,7 +19,7 @@ personal_title: "He/Him/His"
 # An address (you can list multiple)
 address: 
   - 
-   street: ari.lerner@yale.edu
+   email: ari.lerner@yale.edu
 
 
 ---

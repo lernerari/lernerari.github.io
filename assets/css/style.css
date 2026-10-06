@@ -2012,8 +2012,30 @@ blockquote p {
   height: auto;
 }
 
+.head {
+  row-gap: 1.5rem;
+  justify-content: center;
+}
+
+.profile-details {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.profile-address a {
+  color: inherit;
+}
+
 @media (min-width: 640px) {
   .head {
-    grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
+    grid-template-columns: 14rem max-content;
+    column-gap: 3rem;
+  }
+
+  .profile-details {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
   }
 }

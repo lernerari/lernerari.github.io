@@ -1,7 +1,6 @@
-<div class="head container grid sm:grid-cols-2 grid-cols-1
-            justify-around flex-wrap items-center"
+<div class="head container grid grid-cols-1 items-center"
      itemscope itemtype="http://schema.org/Person">
-    <div class="picture p-10 mx-auto basis-20 grow shrink"
+    <div class="picture mx-auto"
          itemscope itemtype="http://schema.org/ImageObject">
         <picture>
             {{ if .Params.ImgOther }}
@@ -16,7 +15,7 @@
             src="{{ .Params.Imgname.Name }}">
         </picture>
     </div>
-    <div class="mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base">
+    <div class="profile-details leading-snug text-base">
         <a  class="u-url font-bold" rel="me" itemprop="url" href="{{ .Permalink }}">
             <h1 class="text-black dark:text-zinc-300 p-name border-0"
                 itemprop="name">{{ .Params.Name }}
@@ -29,16 +28,11 @@
         {{ end }}
         <h2 itemprop="jobTitle" class="text-xl my-0 border-none">{{ .Params.Personal_title }}</h2>
             {{range .Params.Address }}
-            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress">
-                {{ .name }}
-                <br>
-                {{ .street }}
-            </span>
-            <br>
+            <div class="profile-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            {{ with .name }}<span>{{ . }}</span>{{ end }}
+            {{ with .street }}<span itemprop="streetAddress">{{ . }}</span>{{ end }}
             {{ with .postal_code }}<span itemprop="postalCode">{{ . }}</span>{{ end }}
             {{ with .locality }}<span itemprop="addressLocality">{{ . }}</span>{{ end }}
-            <br>
             {{ with .email }}
             <a href="mailto:{{ . }}">{{ . }}</a>
             {{ end }}
@@ -54,7 +48,6 @@
                 {{ end }}
             </picture>
             {{ end }}
-            <br>
             </div>
             {{ end }}
     </div>
