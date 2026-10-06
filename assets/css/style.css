@@ -2004,3 +2004,16 @@ blockquote p {
     margin-right: 2rem;
   }
 }
+
+/* Keep the homepage portrait compact while preserving its aspect ratio. */
+.main-image {
+  width: 100%;
+  max-width: 16rem;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  .head {
+    grid-template-columns: minmax(0, 18rem) minmax(0, 1fr);
+  }
+}
