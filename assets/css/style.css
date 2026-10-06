@@ -2012,7 +2012,7 @@ blockquote p {
   align-items: start;
   column-gap: 3rem;
   margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .main-image {
@@ -2048,7 +2048,7 @@ blockquote p {
   }
 
   .main-image {
-    max-width: 14rem;
+    max-width: 16rem;
   }
 
   .picture {
