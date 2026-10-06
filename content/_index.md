@@ -4,9 +4,9 @@
 name: "Ari Lerner"
 # Your profile picture
 Imgname: 
-  Name: "img/main.jpg"
-  alt: "Picture of me"
-  type: image/jpeg
+  Name: "/Headshot_2026.PNG"
+  alt: "Headshot of Ari Lerner"
+  type: image/png
 # More sources can be added (optional) using 
 #imgOther:
 #   name: "img/main.jpg"

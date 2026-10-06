@@ -1,6 +1,7 @@
 baseURL = "https://lernerari.github.io/"
 languageCode = "en-us"
 title = "Ari Lerner"
+staticDir = ["static", "img"]
 
 preserveTaxonomyNames = true
 rssLimit = 10

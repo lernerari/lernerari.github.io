@@ -9,11 +9,11 @@
             <source srcset="{{ .name }}"{{ if .type }} type="{{ .type }}"{{ end }}>
             {{ end }}
             {{ end }}
-            <source srcset="{{ .Site.Params.imgname.Name }}"
-                    {{ if .Site.Params.imgname.Type }} type="{{ .Site.Params.Imgname.Type }}"{{ end }}>
+            <source srcset="{{ .Params.Imgname.Name }}"
+                    {{ if .Params.Imgname.Type }} type="{{ .Params.Imgname.Type }}"{{ end }}>
             <img class="main-image u-photo mx-auto"
-            itemprop="contentUrl" alt="{{ .Site.Params.Imgname.Alt }}"
-            src="img/Ari.jpg">
+            itemprop="contentUrl" alt="{{ .Params.Imgname.Alt }}"
+            src="{{ .Params.Imgname.Name }}">
         </picture>
     </div>
     <div class="mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base">
