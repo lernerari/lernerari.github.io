@@ -2008,12 +2008,12 @@ blockquote p {
 /* Keep the homepage portrait compact while preserving its aspect ratio. */
 .main-image {
   width: 100%;
-  max-width: 12rem;
+  max-width: 14rem;
   height: auto;
 }
 
 @media (min-width: 640px) {
   .head {
-    grid-template-columns: minmax(0, 14rem) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
   }
 }
