@@ -2011,8 +2011,8 @@ blockquote p {
   grid-template-columns: 18rem minmax(0, 1fr);
   align-items: start;
   column-gap: 3rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .main-image {
@@ -2044,7 +2044,7 @@ blockquote p {
   .homepage-intro {
     grid-template-columns: minmax(0, 1fr);
     row-gap: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .main-image {

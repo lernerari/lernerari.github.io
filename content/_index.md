@@ -28,13 +28,9 @@ bio: |
 
 ### Operations
 
-#### Working Papers
-
 - [Conservation Planning at Scale: Efficient Methods for Designing Connected Reserve Networks via Random Spanning Trees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202220), with V. Manshadi and J. Tucker-Foltz. Under review, 2026.
 
 ### Public Health and Outcomes Research
-
-#### Journal Articles
 
 - [Real-World Neoadjuvant Treatment Patterns and Outcomes in Resected Non–Small-Cell Lung Cancer](https://doi.org/10.1016/j.cllc.2024.03.006), with J. Donington, X. Hu, S. Zhang, Y. Song, A. Arunachalam, D. Chirovsky, C. Gao, A. Jiang, J. Signorovitch, and A. Samkari. *Clinical Lung Cancer*, 2024. doi: 10.1016/j.cllc.2024.03.006. PMID: 38627155.
 
@@ -47,7 +43,3 @@ bio: |
 - [Surgical Implant Generation Network Implant Follow-Up: Assessment of Squat and Smile and Fracture Healing](https://pubmed.ncbi.nlm.nih.gov/31652187/), with K. Alves, G. Silva, and J. Katz. *Journal of Orthopaedic Trauma*, 2020. PMID: 31652187.
 
 - [Clinical Outcomes and Risk-Factor Analysis of the Ponseti Method in a Low-Resource Setting: Clubfoot Care in Haiti](https://pubmed.ncbi.nlm.nih.gov/30870447/), with R. Qudsi, F. Selzer, S. Hill, J. Hippolyte, E. Jacques, F. Alexis, C. May, R. Cady, and E. Losina. *PLOS ONE*, 2019. PMID: 30870447.
-
-#### Abstracts
-
-- Systematic Literature Review of Key Outcomes Used to Assess Adjunctive Treatments for Parkinson’s Disease, with A. Thach, M. Zichlin, M. Peddle, M. Du, N. Kirson, A. Bowling, D. Mehta, and R. Williams. *Movement Disorders*, 2022.
