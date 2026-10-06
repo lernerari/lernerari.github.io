@@ -14,15 +14,10 @@ Imgname:
 #   - name: $IMAGE_PATH
 #     type: $IMAGE_TYPE
 # ...
-# An address (you can list multiple)
-address: 
-  - 
-   email: ari.lerner@yale.edu
-
 bio: |
-  Hi! I’m a Ph.D. student in Operations Research at the Yale School of Management, where I’m also a Planetary Solutions Doctoral Fellow. My research explores how mathematical modeling and spatial optimization can support resilient environmental and humanitarian systems, with applications in conservation planning and disaster response. I hold a B.S. in Mathematics from Tufts University.
+  Hi! I’m a Ph.D. candidate in Operations Research at the Yale School of Management, where I’m also a Planetary Solutions Doctoral Fellow. My research explores how mathematical modeling and spatial optimization can support resilient environmental and humanitarian systems, with applications in conservation planning and disaster response. I hold a B.S. in Mathematics from Tufts University.
 
-  In my free time, I enjoy charcoal drawing, reading literary fiction and essays ([a list of favorites](https://www.goodreads.com/review/list/127721629?shelf=favorites&view=covers)), watching old Soviet films, and feeling the unnecessary stress of supporting both Chelsea FC and my hometown Boston Celtics.
+  In my free time, I enjoy charcoal drawing, reading literary fiction and essays ([a list of favorites](https://www.goodreads.com/review/list/127721629?shelf=favorites&view=covers)), watching old Soviet films, and feeling the unnecessary stress of supporting both Chelsea FC and my hometown Boston Celtics. I can be reached at [ari.lerner@yale.edu](mailto:ari.lerner@yale.edu).
 
 
 ---

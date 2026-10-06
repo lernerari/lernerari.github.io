@@ -2026,14 +2026,6 @@ blockquote p {
   margin-bottom: 0.5rem;
 }
 
-.profile-address {
-  margin-bottom: 1.5rem;
-}
-
-.profile-address a {
-  color: inherit;
-}
-
 .profile-bio p:first-child {
   margin-top: 0;
 }
@@ -2054,8 +2046,7 @@ blockquote p {
     justify-content: center;
   }
 
-  .profile-copy h1,
-  .profile-address {
+  .profile-copy h1 {
     text-align: center;
   }
 }
