@@ -2030,6 +2030,12 @@ blockquote p {
   margin-top: 0;
 }
 
+@media (min-width: 640px) {
+  .profile-copy {
+    transform: translateY(-0.375rem);
+  }
+}
+
 @media (max-width: 639px) {
   .homepage-intro {
     grid-template-columns: minmax(0, 1fr);
