@@ -28,8 +28,8 @@ bio: |
 
 ### Operations
 
-- [Conservation Planning at Scale: Efficient Methods for Designing Connected Reserve Networks via Random Spanning Trees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202220), with V. Manshadi and J. Tucker-Foltz. Under review, 2026.
-  - **Media:** [“How a Political Redistricting Technique Could Help Protect More Wildlife for Less”](https://insights.som.yale.edu/insights/how-political-redistricting-technique-could-help-protect-more-wildlife-for-less), *Yale Insights*.
+- [Conservation Planning at Scale: Efficient Methods for Designing Connected Reserve Networks via Random Spanning Trees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202220), with V. Manshadi and J. Tucker-Foltz. Under review, 2026.<br>
+  &emsp;&emsp;– **Media:** [“How a Political Redistricting Technique Could Help Protect More Wildlife for Less”](https://insights.som.yale.edu/insights/how-political-redistricting-technique-could-help-protect-more-wildlife-for-less), *Yale Insights*.
 
 ### Public Health and Outcomes Research
 
