@@ -2006,6 +2006,16 @@ blockquote p {
 }
 
 /* Homepage profile: portrait on the left, biography on the right. */
+#operations + ul > li > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
+
+#operations + ul > li > ul > li {
+  list-style-type: "–  ";
+}
+
 .homepage-intro {
   display: grid;
   grid-template-columns: 18rem minmax(0, 1fr);
